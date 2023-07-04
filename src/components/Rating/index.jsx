@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./styles.css";
 
-export default function Rating(props) {
+export default function Rating() {
   const [rating, setRating] = useState(0);
   const [hover, setHover] = useState(false);
 
