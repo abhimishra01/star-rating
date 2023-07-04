@@ -18,7 +18,8 @@ export default function Rating() {
             onMouseEnter={() => setHover(index)}
             onMouseLeave={() => setHover(rating)}
           >
-            <span className="star">&#9733;</span>
+            {/* html code for star icon */}
+            <span>&#9733;</span>
           </button>
         );
       })}
